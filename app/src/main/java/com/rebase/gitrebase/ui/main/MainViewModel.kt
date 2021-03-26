@@ -3,7 +3,7 @@ package com.rebase.gitrebase.ui.main
 import androidx.lifecycle.ViewModel
 
 class MainViewModel : ViewModel() {
-        // Added new stuff.
+    // Added new stuff.
 
     init {
         //Init block of ViewModel
