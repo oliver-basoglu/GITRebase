@@ -2,7 +2,6 @@ package com.rebase.gitrebase
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
 import com.rebase.gitrebase.ui.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
@@ -28,21 +27,5 @@ class MainActivity : AppCompatActivity() {
 
     fun startLogging() {
 
-    }
-
-    override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
-        super.onCreate(savedInstanceState, persistentState)
-    }
-
-    override fun onSaveInstanceState(outState: Bundle) {
-        super.onSaveInstanceState(outState)
-    }
-
-    override fun onRestart() {
-        super.onRestart()
-    }
-
-    override fun onResume() {
-        super.onResume()
     }
 }

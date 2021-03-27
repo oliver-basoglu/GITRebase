@@ -34,11 +34,7 @@ class MainFragment : Fragment() {
         //Fragment is paused
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
-    }
-
-    private fun doSomething() {
+    fun doSomething(){
 
     }
 
